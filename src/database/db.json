@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Rohit Sharma",
+      "username": "rohit sharma",
+      "email": "rohit@gmail.com",
+      "phone": "88320832320",
+      "id": 1
+    },
+    {
+      "name": "sharukh",
+      "username": "srk",
+      "email": "sharukh121@gmail.com",
+      "phone": "2380982092",
+      "id": "1aFMv7o"
+    },
+    {
+      "name": "sharukh",
+      "username": "srk",
+      "email": "sharukh121@gmail.com",
+      "phone": "2380982092",
+      "id": 2
+    },
+    {
+      "name": "",
+      "username": "",
+      "email": "",
+      "phone": "",
+      "id": 3
+    }
+  ]
+}
