@@ -1,31 +1,24 @@
 {
   "users": [
     {
-      "name": "Rohit Sharma",
+      "name": "Rohit Sharma gurunath",
       "username": "rohit sharma",
       "email": "rohit@gmail.com",
       "phone": "88320832320",
       "id": 1
     },
     {
-      "name": "sharukh",
-      "username": "srk",
-      "email": "sharukh121@gmail.com",
-      "phone": "2380982092",
-      "id": "1aFMv7o"
-    },
-    {
-      "name": "sharukh",
-      "username": "srk",
-      "email": "sharukh121@gmail.com",
-      "phone": "2380982092",
+      "name": "Ravindra jadeja",
+      "username": "jaddu",
+      "email": "jaddu121crazy@gmail.com",
+      "phone": "484803342",
       "id": 2
     },
     {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
+      "name": "butler",
+      "username": "josh",
+      "email": "butler@gmail.com",
+      "phone": "9899014278",
       "id": 3
     }
   ]

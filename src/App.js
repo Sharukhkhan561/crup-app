@@ -5,6 +5,7 @@ import AddUser from './components/AddUser';
 import AllUsers from "./components/AllUsers"
 import CrudApp from "./components/CrudApp"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import EditUser from './components/Edit';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<CrudApp/>}/>
       <Route path="/all" element={<AllUsers/>}/>
       <Route path ="/add" element={ <AddUser/>}/>
+      <Route path="/edit/:id" element={<EditUser/>}/>
       </Routes>
     </BrowserRouter>
   );

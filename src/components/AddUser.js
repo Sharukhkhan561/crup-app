@@ -1,13 +1,13 @@
 import React ,{useState}from 'react'
 import {FormGroup,FormControl,InputLabel,Input, Typography,Button,styled} from "@mui/material";
 import { addUser } from '../services/Api';
+import { useNavigate } from 'react-router-dom';
 const Container =styled(FormGroup)`
 width:50%;
 margin:5% auto 0 auto;
 & > div {
     margin-top : 20px
 }
-
 `
 const intialValues={
     name:"",
@@ -17,13 +17,15 @@ const intialValues={
 }
 const AddUser = () => {
     const [user,setUser]= useState(intialValues)
-    // console.log("insital values are",user)
+    const navigate = useNavigate();
     const onValueChange=(e)=>{
         setUser({...user, [e.target.name]:e.target.value})
         console.log("user data", user)
     }
+    // get add user data
     const addUserDetails=async()=>{
         await addUser(user);
+        navigate('/all')
     }
   return (
 <Container>
